@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #d9d4ce; */
+
+
+}
+
+/* body{
+
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_LVu7q3Jb6Z86WU6oVo08eyl0NWRCTdHLHn-w01F1eQKyJ8sybDUh8TCQm7dIv34sxVX9nOaKqSKN7wva6DXPlblH1ASjihGdoYfuT_9wzhdRGbA3oK2isjV4fCVX12pRk0tgoApKeY0bERFvR7KvDLMRIXLRg3OhnKPKLTCJimyqWk_kWwOqAP-JqtY/s2560/Rail%20Cargo.jpg"); /* local file */
+/* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+} */
+
+.myVideo {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+
+}
+
+
+
+
+.second_page {
+    background-color: rgb(255, 255, 255);
+    /* position: fixed; */
+    width: 1002px;
+    height: 594px;
+    margin: 70px;
+    margin-left: 271px;
+
+    border-radius: 10px;
+    border: 1px black solid;
+    box-shadow: 0 0 11px black;
+    opacity: 0.7;
+}
+
+p {
+    text-align: center;
+
+    font-size: 28px;
+
+    /* font-family: Georgia, serif; */
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+
+}
+
+@keyframes mymove {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 20px;
+        /* color: red; */
+    }
+}
+
+
+
+
+/* 
+#one {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .name {
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 2px;
+    /* font-family: Georgia, serif; */
+/* } */
+
+.inputs {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 29px;
+    /* gap: 2px; */
+
+}
+
+#one {
+    margin-left: 11px;
+}
+
+#two {
+    margin-left: -22px;
+}
+
+.writting_place {
+    width: 275px;
+    border: 1px black solid;
+    box-shadow: 0 0 3px black;
+    border-radius: 3px;
+    padding-left: 5px;
+
+}
+
+.writting_place:hover {
+    border: 2px black solid;
+    position: relative;
+}
+
+.second_inputs {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5px;
+    margin-top: 28px;
+}
+
+
+
+
+
+.inside_page {
+    height: 580px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px black solid;
+    box-shadow: 0 0 11px black;
+    opacity: 0.7;
+    margin: 50px;
+    align-items: center;
+    margin-left: 570px;
+    margin-top: 80px;
+}
+
+.data {
+    /* margin: 20px;
+    /* height: 10px; */
+    /* padding: 10px; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    /* margin-bottom: 10px; */
+    align-items: center;
+    /* align-items: self-start; */
+    margin-left: -15px
+}
+
+input {
+    padding: 5px;
+    height: 34px;
+    width: 325px;
+    color: black;
+}
+
+/* margin-bottom: 5px;
+    line-height: inherit;
+} */
+
+
+
+
+/* 
+button, input, optgroup, select, textarea
+ {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    
+    
+} */
+
+
+.gapping1 {
+    margin-top: 35px;
+}
+
+
+.logo {
+
+    font-size: 50px;
+}
+
+.gapping3 {
+    margin-left: 4px;
+}
+
+
+.male_gender {
+    width: 13px;
+}
+
+h6 {
+    float: left;
+    margin-left: -109px;
+    gap: 2px;
+}
+
+#Gender {
+    display: inline-block;
+}
+
+.hide_show {
+    display: inline-block
+}
+
+.password_box {
+    margin-right: -133px;
+}
+
+#btn {
+    background-color: #2a2a49;
+    color: white;
+    width: 143px;
+    border: 1px black solid;
+    border-radius: 4px;
+    height: 34px;
+}
+
+.date-container {
+    position: relative;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+}
+
+.date-container i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+}
+
+.date-container input[type="date"] {
+    padding: 10px 10px 10px 7px;
+    font-size: 16px;
+    width: 329px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.date-container .fake-placeholder {
+    position: absolute;
+    left: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    pointer-events: none;
+    transition: 0.2s ease;
+}
+
+.date-container input[type="date"]:focus+.fake-placeholder,
+.date-container input[type="date"]:valid+.fake-placeholder {
+    opacity: 0;
+}
+
+#cal_logo {
+    margin-right: -10px;
+}
+
+.sign_in_text {
+    margin-top: -13px;
+    font-size: 18px;
+}
+
+.overlay{
+    width: 100%;
+  height: 100%;
+  background-color:rgb(96 85 85 / 70%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 500
+}

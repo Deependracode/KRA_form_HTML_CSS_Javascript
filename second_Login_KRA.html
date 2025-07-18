@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login_second_Login_KRA.css" />
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"> -->
+</head>
+
+<body>
+
+  <div class="overlay">
+    <div class="login-container">
+      <h2>Login KRA</h2>
+
+
+      <!-- --------------------------------------------------------- -->
+      <form onsubmit="return validateLogin()">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="show_password" class="show_passw">
+          <input type="checkbox" id="show_password" onclick="togglePassword()">Show Password
+        </label>
+
+
+        <button type="submit" class="loginbtn"> <a href="third_option.html" id="login_button">Login <a
+              href="third_option.html"></a></button>
+        <!-- <a href="final_KRA.html" class="loginbtn"> Login</a> -->
+
+        <a href="Forget_Password.html" id="Forget-pass">Forget Password</a>
+
+        <h4 class="sign_up_text"> Don't have an account? <a href="registration_page_KRA.html"
+            style="text-decoration: none;color: blue;">SignUp </a></h4>
+
+
+      </form>
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+</body>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("password");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+</script>
+
+<script>
+  function togglePassword() {
+    var x = document.getElementById("password");
+    x.type = (x.type === "password") ? "text" : "password";
+  }
+
+  function validateLogin() {
+    const username = document.getElementById("username").value.trim();
+    const password = document.getElementById("password").value.trim();
+
+    if (username === "" || password === "") {
+      alert("Please enter both username and password.");
+      return false; // prevent form submission
+    }
+
+    // If valid, redirect manually
+    window.location.href = "final_KRA.html";
+    return false; // prevent form from submitting traditionally
+  }
+</script>
+
+
+</html>

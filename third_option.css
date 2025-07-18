@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.box1 {
+    /* height: 100%;
+    width: 100%; */
+    position: fixed;
+    background-color: rgb(255, 254, 252);
+}
+
+
+.container-fluid {
+    background-color: #0a58ca;
+    margin-top: -8px;
+    padding: 6px;
+
+}
+
+.SHOES {
+    height: 178px;
+    width: 163px;
+}
+
+
+
+
+h2 {
+    color: brown;
+    margin-left: 50px;
+    background-color: #0a58ca;
+    color: white;
+    border: 1px red solid;
+    border-radius: 5px;
+}
+
+h2:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.box1 {
+
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+
+}
+
+.box1:hover {
+    border: 1px black solid;
+    margin-left: 10px;
+    /* height: 182px;
+    width: 168px; */
+}
+
+
+#card {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+
+
+}
+
+.card_2{
+    border: 1px black solid;
+}
+.card_2:hover{
+    border: 2px black solid;
+}
+
+#btn{
+    margin: 5px;
+}
+
+.navbar-brand:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+.card-text_2{
+    padding: 5px;
+}

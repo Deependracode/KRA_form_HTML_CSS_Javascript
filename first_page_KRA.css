@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.image {
+    /* height: 789px;
+    width: 1530px; */
+
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+/* .videomp4{
+    height: 789px;
+    width: 1530px;
+} */
+
+.VIDEO_TEMPLATE {
+    height: 855px;
+    width: 1525px;
+    margin-top: -130px;
+    position: fixed;
+    
+}
+
+.start_button {
+    position: fixed;
+    margin-top: 523px;
+    width: 370px;
+    padding-left: 88px;
+    border-radius: 17px;
+}
+
+

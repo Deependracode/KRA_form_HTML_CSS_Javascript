@@ -1,0 +1,404 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    font-family: inherit Arial, Helvetica, sans-serif;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 1400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 35px;
+
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    margin-top: 10px;
+    width: 1354px;
+    height: 99px;
+    margin-top: -5px;
+}
+
+.textbox {
+    margin: 3px;
+
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+
+
+}
+
+.textbox1 {
+    padding-bottom: 5px;
+}
+
+.textbox2 {
+    padding-left: 240px;
+    font-size: 16px;
+
+}
+
+.textbox3 {
+    margin-top: 2px;
+    font-size: 14.5px;
+    padding-left: 258px;
+}
+
+.line {
+    margin-left: 512px;
+    color: black;
+    text-decoration: solid;
+    margin-right: 509px;
+}
+
+
+
+#SESSION {
+    float: right;
+    height: 35px;
+    min-width: 130px;
+    padding: 5px px 0px 2px;
+    margin-left: 120px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 16px;
+    border: 1.5px solid #555;
+    border-radius: 6px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* box-shadow: 2px 2px 5px  */
+
+}
+
+#SESSION:hover {
+    background-color: #d1d1d1;
+    border-color: #333;
+    color: #000;
+}
+
+#SESSION option {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+}
+
+.personal_particulars {
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 42px;
+    letter-spacing: 1px;
+}
+
+.row {
+    width: 98%;
+    height: 80px;
+    /* background-color: #e4e4e4; */
+    margin-left: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_row {
+    width: 96%;
+    height: 80px;
+    /* background-color: #e4e4e4; */
+    margin-left: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.E_code,
+.E_name,
+.E_designation {
+
+    flex: 1;
+    min-width: 200px;
+
+}
+
+.E_name {
+    margin-left: 2px;
+}
+
+#E_Name {
+    margin-left: 42px;
+}
+
+.row1 {
+    font-weight: 300;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 20px;
+    margin-left: 38px;
+}
+
+.row2 {
+    font-weight: 300;
+    margin-bottom: -3px;
+    display: block;
+    font-size: 20px;
+}
+
+.Employee_code,
+.Employee_name,
+.Employee_designation {
+    margin-top: 0px;
+    margin-right: 45px;
+    margin-left: 40px;
+    width: 390px;
+    height: 33px;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding-left: 11px;
+}
+
+/* .Employee_name {
+    margin-left: -167px;
+} */
+
+#em_Name {
+    margin-left: 42px;
+}
+
+
+
+
+.E_department,
+.E_place of posting,
+.E_reporting_officer {
+    flex: 1;
+    /* min-width: 200px; */
+}
+
+.Employee_reporting_officier {
+    margin-left: 48px;
+    width: 404px;
+    height: 37px;
+    margin-top: 4px;
+    border: 1px black solid;
+    border-radius: 5px;
+
+
+}
+
+
+/* .E_department,.row2{
+    margin-right: 50px;
+}
+
+.E_place of posting,.row2{
+    margin-left: 1px; 
+}
+*/
+
+#selectbox1 {
+    margin-left: 37px;
+    height: 42px;
+    width: 391px;
+}
+
+/* #placeposting1{
+    margin-left: 2px;
+} */
+
+
+.Employee_placeposting {
+    margin-left: 5px;
+
+}
+
+#select_officier {
+    margin-right: 352px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.E_place of posting,
+.Employee_placeposting {
+    margin-left: 43px;
+}
+
+#department1 {
+    margin-left: -6px;
+}
+
+#posting1 {
+    margin-left: 42px;
+}
+
+/* #placeposting{
+    margin-left: -283px;
+} */
+
+.Employee_placeposting,
+.Employee_department {
+    margin-top: 10px;
+    width: 394px;
+    height: 33px;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#department {
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
+.E_reporting_officer .row2 {
+    margin-left: 44px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 20px;
+}
+
+.button_sub,
+.button_res {
+    align-items: center;
+    height: 35px;
+    width: 95px;
+    background-color: #007bff;
+    color: white;
+    font-size: 21px;
+    border: 1px;
+    border-radius: 7px;
+}
+
+.button_row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+.reset_button {
+    margin-left: 3px;
+}
+
+
+.table1 {
+
+    margin: 40px auto;
+    max-width: 1400px;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+}
+
+#dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: -14px;
+
+}
+
+/* .accordion-body {
+    margin-top: 0px
+} */
+.accordion-item {
+    margin-top: 47px;
+    border: 2px black solid;
+}
+
+
+.multipleSelection {
+    width: 100px;
+    /* background-color: #BCC2C1; */
+    /* display: block; */
+    flex: 1;
+    margin: 2px;
+}
+
+.selectBox {
+    position: relative;
+    display: block;
+
+    width: 148px;
+
+}
+
+
+.selectBox select {
+    width: 100%;
+    font-weight: 400;
+    font-family: inherit Arial, Helvetica, sans-serif;
+    height: 37px;
+    margin-top: 5px;
+    margin-left: 2px;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+
+
+.overSelect {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#checkBoxes {
+    border-radius: 5px;
+    border: 1px #0c1715 solid;
+    height: 95px;
+    width: 391px;
+    margin-left: 39px;
+    margin-top: -24px;
+    padding-left: 4px;
+    display: none;
+}
+
+
+#checkBoxes label {
+    display: block;
+}
+
+#checkBoxes label:hover {
+    background-color: #4F615E;
+    color: white;
+    /* Added text color for better visibility */
+}
+
+.accordion-item {
+    margin-top: 2px;
+    border: 2px black solid;
+   
+}
+
+.toast-alert {
+    position: fixed;
+    bottom: 20px; /* Ensure it's anchored to the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    font-size: 16px;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.toast-alert.fade-out {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+}

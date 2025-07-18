@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="registration_page_KRA.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="C:\Users\deepe\Downloads\bootstrap.min.css"> -->
+    <!-- 
+    <style>
+        body {
+            background-image: url("C:\Users\deepe\OneDrive\Desktop\DFCCIL\DFCCIL INTERNSHIP CODE\19june key area results project\Rail Cargo.jpg");
+        }
+    </style> -->
+</head>
+
+<body>
+    <!-- <div class="background"></div> -->
+
+    <div class="myVideo">
+        <video autoplay muted loop>
+            <source src="C:\Users\deepe\OneDrive\Desktop\DFCCIL\DFCCIL INTERNSHIP CODE\all project and code DFCCIL\KRA\DFCILRAIL.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+    </div>
+    
+    <form>
+        <div class="inside_page">
+            <p><b><u>REGISTRATION FORM</u></b></p>
+            <div class="data">
+                <label for="name" class="gapping1"><i id="logo" class="fa-solid fa-circle-user"></i>
+                    <input type="text" placeholder="Enter Your Name" id="name">
+                </label>
+                <label for="emp_code" class="gapping2"><i id="logo" class="fa-solid fa-pen"></i>
+                    <input type="number" placeholder="Enter Your Code" id="emp_code">
+                </label>
+
+                <label for="Age" class="gapping3"><i id="logo" class="fa-solid fa-image-portrait"></i>
+                    <input type="number" placeholder="Enter Your Age" id="Age">
+                </label>
+
+                <!-- <label for="Joining_date" class="gapping4"><i class="fa-solid fa-calendar-days"></i>
+                <input type="date" placeholder="Enter Your joining date (DD-MM-YYYY)" id="Joining_date">
+            </label> -->
+
+                <label for="Joining_date" class="date-container">
+                    <i class="fa-solid fa-calendar-days" id="cal_logo"></i>
+                    <input type="date" id="Joining_date"  required>
+                    <span class="fake-placeholder">___________Enter joining date</span>
+                </label>
+
+                <label for="Department" class="gapping5"><i class="fa-solid fa-building-user"></i>
+                    <input type="text" placeholder="Enter Your Department" id="Department">
+                </label>
+
+
+                <label><i class="fa-solid fa-lock" style="margin-right: -35px;">
+                        <input type="password" placeholder="Enter Your Password"
+                            style="width: 326px; margin-left: 3px; margin-right: 10px; font-family: sans-serif;"
+                            name="password" id="password" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$" /></i>
+                    <i class="bi bi-eye-slash" id="togglePassword"></i></label>
+
+
+                <!-- <button id="btn"><a href="second_Login_KRA.html" style="color: white; text-decoration: none;"> button </a></button> -->
+                <button id="btn" type="submit" style="color: white; text-decoration: none;">Submit</button>
+
+                <h4 class="sign_in_text"> Already have an account? <a href="second_Login_KRA.html" style="text-decoration: none;color: blue;">LOGIN </a></h4>
+
+            </div>
+
+
+        </div>
+    </form>
+
+
+</body>
+<!-- <script>
+    function myFunction() {
+        var x = document.getElementById("password");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+</script> -->
+
+<!-- <script>
+    const togglePassword = document
+        .querySelector('#togglePassword');
+    const password = document.querySelector('#password');
+    togglePassword.addEventListener('click', () => {
+        // Toggle the type attribute using
+        // getAttribure() method
+        const type = password
+            .getAttribute('type') === 'password' ?
+            'text' : 'password';
+        password.setAttribute('type', type);
+        // Toggle the eye and bi-eye icon
+        this.classList.toggle('bi-eye');
+    });
+
+
+    // let btnn=document.querySelector("button");
+    // btnn.addEventListener("click",()=>{
+    //     alert("form submitted succesfully move forward to login page ");
+    // });
+</script> -->
+
+<script src="registration_page_KRA.js"></script>
+
+</html>
